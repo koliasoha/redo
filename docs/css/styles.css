@@ -55,7 +55,8 @@ body{
 #imagebk{
     background-size: contain;
     background: url("../chocolatecake.jpeg") no-repeat;
-    height: 637px;
+    width: 960px;
+    height: 800px;
     position:relative;
 }
 #topimage{
