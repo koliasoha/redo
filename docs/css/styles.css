@@ -124,7 +124,15 @@ a:hover{
 }
 #Step1, #Step2, #Step3, #Step4{
     width:23%;
-    height: 800px;
+    height: 500px;
+    text-align: center;
+}
+#Step1 h3, #Step2 h3, #Step3 h3, #Step4 h3{
+    height: 50px;
+}
+#Step1 p, #Step2 p, #Step3 p, #Step4 p{
+    text-align: left;
+    margin-top: 0;
 }
 #Step2, #Step3, #Step4{
     margin-left: 1.5%;
@@ -207,4 +215,10 @@ img:before {
     color: rgb(100, 100, 100);
     left: 0;
     text-align: center;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-column-gap: 20px;
 }
