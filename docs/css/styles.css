@@ -113,7 +113,6 @@ body{
 .topMargin{
     margin-top:31px;
 }
-
 a{
     text-decoration: none;
 }
@@ -177,4 +176,13 @@ a:hover{
     border-left: 20px solid transparent;
 }
 
+a {
+    color: #000;
+    -webkit-transition: color 1s ease-in; /*safari and chrome */
+    -moz-transition: color 1s ease-in; /* firefox */
+    -o-transition: color 1s ease-in; /* opera */
+}
 
+a:hover {
+    color: #c00;
+}
