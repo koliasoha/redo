@@ -23,6 +23,9 @@ body{
 .logo{
 
 }
+.nobottommargin{
+    margin-bottom: 0;
+}
 .marginLeft{
     margin-left: 50px;
 }
@@ -57,7 +60,7 @@ body{
 }
 #imagebk{
     background-size: contain;
-    background: url("../chocolatecake.jpeg") no-repeat;
+    background: url("../cakebackground.jpeg") no-repeat;
     height: 800px;
     position:relative;
 }
